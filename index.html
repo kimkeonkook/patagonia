@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <title>patagonia</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Noto+Sans+KR:wght@500;700;900&display=swap');
+
+        *{
+            margin : 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Noto Sans KR', sans-serif;
+
+        }
+        .gnb > .top {
+            width: 100%;
+            display : flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            background-color: #500778;
+            height: 50px;
+            color: white;
+            gap: 15px;
+            padding: 0px 20px ;
+        }
+        .gnb >.top > a, .gnb > .top > ruby-span {
+            color: white;
+            text-decoration: none;
+        }
+        .gnb > .bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding : 0px 20px;
+            height: 70px;
+        }
+        .gnb > .bottom > .left {
+            display: flex;
+            align-items: center;
+            gap : 40px;
+        }
+        .gnb > .bottom > .left > img {
+            width: 150px;
+        }
+        .gnb > .bottom > .left > span{
+            font-weight: 900;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .left > input  {
+            width: 500px;
+            height: 40px;
+            padding: 8px 12px;
+
+            font-size: 16px;
+
+        }
+        .iconwrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            }
+            
+        .iconwrapper >i {
+            font-size: 30px;
+        }
+        
+        .imgbox > img {
+            width: 100% ;
+        }
+
+        .itmbox {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap : 50px;
+            padding: 30px;
+            width: 50%;
+        }
+        .itmbox > ul > span {
+            font-size: 20px;
+        }
+        .itmbox > ul >li {
+            border-bottom: 1px solid lightgray;
+            padding: 10px;
+            text-decoration: none;
+            list-style-type: none;
+    
+        }
+
+        .right { 
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+            margin-left: 100px;
+            margin-right: auto;
+            background-color: pink;  
+         
+         }
+</style>
+</head>
+<body>
+    <div>
+        <div class="gnb">
+            <div class="top">
+                <a href="#">climate goals</a>
+                <a href="#">푸른심장</a>
+                <a href="#">worn wear</a>
+                <span>/</span>
+                <a href="#">더보기</a>
+            </div>
+
+            <div class="bottom">
+                <div class="left">
+                    <img src="	https://media-sparta.s3.ap-northeast-2.amazonaws.com/media/images/patagonia_main_logo.png
+">
+                    <span>SHOP</span>
+                    <span>INSIDE PATAGONIA</span>
+                    <input placeholder="Search"/>
+
+                </div>
+                
+                <div class="iconwrapper">
+                    <i class="bi bi-question-circle-fill"></i>
+                    <i class="bi bi-person-fill"></i>
+                    <i class="bi bi-cart-fill"></i>
+                </div>
+               
+            </div>
+        </div>
+        <div class="imgbox">
+            <img src="https://media-sparta.s3.ap-northeast-2.amazonaws.com/media/images/patagonia_main_banner.png">
+        </div>
+        <div class="itmbox">
+            <ul class="left">
+                <span>women's </span> 
+                <li class="lic">신상품</li>
+                <li class="lic">재킷&베스트</li>
+                <li class="lic">플리츠</li>
+                <li class="lic">셔츠</li>
+                <li class="lic">팬츠 & 레깅스</li>
+                <li class="lic">모자 & 액세서리</li>
+            </div>
+            <div class="right">
+                <>
+                <img src="https://media-sparta.s3.ap-northeast-2.amazonaws.com/media/images/patagonia_item_1.png"/>
+                    <sapn>sanWomen Stand Up Overalls</sapn>                   </sapn>
+                </div>
+                
+                <img src="https://media-sparta.s3.ap-northeast-2.amazonaws.com/media/images/patagonia_item_2.png"/>
+                     Women Ridge Flow Shirt
+                     ₩89,000     
+                <img src="	https://media-sparta.s3.ap-northeast-2.amazonaws.com/media/images/patagonia_item_3.png"/>"
+                      Women Ridge Flow Shirt
+                       ₩89,000
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
